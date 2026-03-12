@@ -1,0 +1,23 @@
+{ 
+
+  "name": "BIG BIRD GAMES", 
+
+  "short_name": "BIGBIRDGAMES🕹️", 
+
+  "start_url": "/", 
+
+  "display": "standalone", 
+
+  "icons": [
+    { 
+
+    "src": "/images/plexilearcade512.png", 
+
+    "sizes": "512x512", 
+
+    "type": "image/png" 
+
+  }
+] 
+
+}

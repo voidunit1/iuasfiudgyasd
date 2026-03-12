@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLEXILE ARCADE | Apps</title>
+    <link rel="manifest" href="/manifest.json"/>
+    <link rel="icon" type="image/png" href="/images/plexilearcade.png">
+    <link rel="shortcut icon" href="/images/plexilearcade.png" />
+    <meta property="og:title" content="PLEXILE ARCADE">
+    <meta name="theme-color" content="#C93131">
+    <meta name="msapplication-TileColor" content="#C93131">
+    <meta property="og:image" content="/images/plexilearcade.png">
+    <meta name="description" content="The Next Generation Of Unblocked Sites...">
+    <meta property="og:description" content="The Next Generation Of Unblocked Sites...">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/loader.css">
+    <link rel="stylesheet" href="/css/links.css">
+     <link rel="stylesheet" href="/css/games-apps.css">
+
+    <style>
+        .sidebar-icon.dots-icon {
+            color: #fff; 
+        }
+
+        .sidebar-icon.dots-icon::before {
+            color: #fff;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 95%;
+            height: 100%;
+            border-left: 3px solid #C93131; 
+            background-color: #333232; 
+            opacity: 1; 
+            z-index: -1; 
+        }
+    </style>
+    
+    <div id="loader">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+    </div>
+
+
+    <div class="sidebar">
+        <a href="/" class="sidebar-icon home-icon"><i class="bx bx-home-alt icon"></i></a>
+        <a href="/games.html" class="sidebar-icon games-icon"><i class="bx bx-joystick icon"></i></a>
+        <a href="/apps.html" class="sidebar-icon dots-icon"><i class="bx bx-grid-alt icon"></i></a>
+        <a href="/search.html" class="sidebar-icon search-icon"><i class="bx bx-search icon"></i></a>
+        <a href="/links.html" class="sidebar-icon links-icon"><i class="bx bx-link-alt icon"></i></a>
+        <a href="/settings.html" class="sidebar-icon cog-icon"><i class="bx bx-cog icon"></i></a>
+    </div>
+
+</head>
+<body>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-J0V0W80N7G"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1597620073084418"
+crossorigin="anonymous"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-J0V0W80N7G');
+</script>
+    
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PJ5MSKBK');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJ5MSKBK"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    <div id="notification">
+    <div class="notification-content">
+        <img src="/images/games-images/questionmark.png" alt="Notification Icon" class="notification-img">
+        <div class="notification-text">
+            Apps not working? Try searching on the Proxy a few times, Then Try Again.
+        </div>
+        <button id="close-notification" class="close-btn">&times;</button>
+    </div>
+</div>
+    
+    <div class="search-container">
+        <input type="text" placeholder="Search For Apps..." class="search-bar" id="searchInput">
+        <button class="random-button" id="random">
+          <i class='bx bx-shuffle'></i>
+      </button>
+    </div>
+
+  <div class="main-content">
+    <div class="container" id="boxContainer">
+      <a href="/apps/google/" class="box">
+        <img src="/images/app-images/google.png" alt="Google" class="box-image">
+        <div class="box-text">Google</div>
+      </a>
+          <a href="/apps/tiktok/" class="box">
+            <img src="/images/app-images/tiktok.png" alt="Tiktok" class="box-image">
+              <i class="fa fa-fire fire-icon"></i>
+            <div class="box-text">Tiktok</div>
+          </a>
+          <a href="/apps/discord/" class="box">
+            <img src="/images/app-images/discord.png" alt="Discord" class="box-image">
+              <i class="fa fa-fire fire-icon"></i>
+            <div class="box-text">Discord</div>
+          </a>
+          <a href="/apps/xboxcloudgaming/" class="box">
+            <img src="/images/app-images/xboxcloudgaming.png" alt="Xbox Cloud Gaming" class="box-image">
+            <div class="box-text">Xbox Cloud Gaming</div>
+          </a>
+          <a href="/apps/github/" class="box">
+            <img src="/images/app-images/github.png" alt="Github" class="box-image">
+            <div class="box-text">Github</div>
+          </a>
+            <a href="/apps/reddit/" class="box">
+                <img src="/images/app-images/reddit.png" alt="reddit" class="box-image">
+                <div class="box-text">reddit</div>
+              </a>
+              <a href="/apps/netflix/" class="box">
+                <img src="/images/app-images/netflix.png" alt="Netflix" class="box-image">
+                <div class="box-text">Netflix</div>
+              </a>
+              <a href="/apps/twitch/" class="box">
+                <img src="/images/app-images/twitch.png" alt="twitch" class="box-image">
+                <div class="box-text">twitch</div>
+              </a>
+              <a href="/apps/twitter/" class="box">
+                <img src="/images/app-images/twitter.png" alt="Twitter" class="box-image">
+                <div class="box-text">Twitter</div>
+              </a>
+            <a href="/apps/youtubemusic/" class="box">
+                <img src="/images/app-images/youtubemusic.png" alt="Youtube Music" class="box-image">
+                <i class="fa fa-fire fire-icon"></i>
+                <div class="box-text">Youtube Music</div>
+              </a>
+              <a href="/apps/mlgsoundboard/" class="box">
+                <img src="/images/app-images/mlgsoundboard.png" alt="MLG Soundboard" class="box-image">
+                <div class="box-text">MLG Soundboard</div>
+              </a>
+              <a href="/apps/plexilemovies/" class="box">
+                <img src="/images/app-images/plexilemovies.png" alt="PLEXILE Movies" class="box-image">
+                <div class="box-text">PLEXILE Movies</div>
+              </a>
+              <a href="/apps/aniwatch/" class="box">
+                <img src="/images/app-images/aniwatch.png" alt="Ani Watch" class="box-image">
+                <div class="box-text">Ani Watch</div>
+              </a>
+            <a href="/apps/123movies/" class="box">
+                <img src="/images/app-images/123movies.png" alt="123Movies" class="box-image">
+                <div class="box-text">123Movies</div>
+              </a>
+              <a href="/apps/chatgpt/" class="box">
+                <img src="/images/app-images/chatgpt.png" alt="ChatGPT" class="box-image">
+                <div class="box-text">ChatGPT</div>
+              </a>
+              <a href="/apps/androidemulator/" class="box">
+                <img src="/images/app-images/androidemulator.png" alt="Android Emulator" class="box-image">
+                <div class="box-text">Android Emulator</div>
+              </a>
+              <a href="/apps/youtube/" class="box">
+                <img src="/images/app-images/youtube.png" alt="Youtube" class="box-image">
+                  <i class="fa fa-fire fire-icon"></i>
+                <div class="box-text">Youtube</div>
+              </a>
+            <a href="/apps/geforcenow/" class="box">
+                <img src="/images/app-images/geforcenow.png" alt="GeForce Now" class="box-image">
+                <div class="box-text">GeForce Now</div>
+              </a>
+            <a href="/apps/vscode/" class="box">
+                <img src="/images/app-images/vscode.png" alt="VS Code" class="box-image">
+                <div class="box-text">VS Code</div>
+              </a>
+              <a href="/apps/espn/" class="box">
+                <img src="/images/app-images/espn.png" alt="ESPN" class="box-image">
+                <div class="box-text">ESPN</div>
+              </a>
+              <a href="/apps/crazygames/" class="box">
+                <img src="/images/app-images/crazygames.png" alt="Crazy Games" class="box-image">
+                <div class="box-text">Crazy Games</div>
+              </a>
+              <a href="/apps/thepiratebay/" class="box">
+                <img src="/images/app-images/thepiratebay.png" alt="The Pirate Bay" class="box-image">
+                <div class="box-text">The Pirate bay</div>
+              </a>
+            <a href="/apps/nowgg/" class="box">
+                <img src="/images/app-images/nowgg.png" alt="now.gg" class="box-image">
+                <div class="box-text">now.gg</div>
+              </a>
+              <a href="/apps/spotify/" class="box">
+                <img src="/images/app-images/spotify.png" alt="Spotify" class="box-image">
+                <div class="box-text">Spotify</div>
+              </a>
+
+            <br><br><br><br><br><br><br><br>
+        </div>
+        
+    <script src="/js/main.js"></script>
+    <script src="/js/loader.js"></script>
+    <script src="/js/highlight.js" defer></script>
+    <script src="/js/gamesandapps-search.js" defer></script>
+
+<script>
+  const boxes = document.querySelectorAll('.box');
+  
+  boxes.forEach((box, index) => {
+    
+    box.style.setProperty('--i', index + 1);
+  });
+
+  document.getElementById('random').addEventListener('click', function () {
+    
+    const links = document.querySelectorAll('#boxContainer .box');
+    
+    if (links.length === 0) return;
+
+    const randomIndex = Math.floor(Math.random() * links.length);
+    const randomLink = links[randomIndex].href;
+
+    window.location.href = randomLink;
+});
+   </script>
+    <script src="/js/settings/anticlosing.js"></script>
+    <script src="/js/settings/clickoffcloaking.js"></script>
+    <script src="/js/settings/tabcloak.js" defer></script>
+    <script src="/js/settings/panic.js"></script>
+    <script src="/js/settings/mobile.js"></script>
+    <script src="/js/settings/themes.js" defer></script>
+
+    <script>
+(function(zrwobxz){
+var d = document,
+    s = d.createElement('script'),
+    l = d.scripts[d.scripts.length - 1];
+s.settings = zrwobxz || {};
+s.src = "\/\/scratchy-map.com\/cCDw9N6.bf2o5FlGSJW\/QZ9lNkjnED3qMWTSAX3hMuC\/0o2\/MDTCc\/xGM\/DWczx_";
+s.async = true;
+s.referrerPolicy = 'no-referrer-when-downgrade';
+l.parentNode.insertBefore(s, l);
+})({})
+</script>  
+</body>
+</html>
